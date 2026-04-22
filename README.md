@@ -4,6 +4,8 @@ A daily cash tracking iOS application built with UIKit and Swift.
 
 ---
 
+https://github.com/user-attachments/assets/ed7fe8dc-6015-4971-bc8b-5927931f82bb
+
 ## 📱 Features
 
 - Set an opening balance at the start of each day
