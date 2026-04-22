@@ -6,46 +6,349 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		627258D22F8F822400C464C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6272589F2F8F822400C464C8 /* LaunchScreen.storyboard */; };
+		627258D32F8F822400C464C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627258CE2F8F822400C464C8 /* Assets.xcassets */; };
+		627258D52F8F822400C464C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6272589D2F8F822400C464C8 /* AppDelegate.swift */; };
+		627258D62F8F822400C464C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258A02F8F822400C464C8 /* SceneDelegate.swift */; };
+		627258D72F8F822400C464C8 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258A22F8F822400C464C8 /* CustomTabBar.swift */; };
+		627258D82F8F822400C464C8 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258A42F8F822400C464C8 /* BaseCell.swift */; };
+		627258D92F8F822400C464C8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258A52F8F822400C464C8 /* BaseView.swift */; };
+		627258DA2F8F822400C464C8 /* TransactionProcessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258A82F8F822400C464C8 /* TransactionProcessModel.swift */; };
+		627258DB2F8F822400C464C8 /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258AB2F8F822400C464C8 /* AddTransactionViewController.swift */; };
+		627258DC2F8F822400C464C8 /* CashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258AC2F8F822400C464C8 /* CashViewController.swift */; };
+		627258DD2F8F822400C464C8 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258AE2F8F822400C464C8 /* TransactionModel.swift */; };
+		627258DE2F8F822400C464C8 /* CashCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258B02F8F822400C464C8 /* CashCell.swift */; };
+		627258DF2F8F822400C464C8 /* KasaCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258B12F8F822400C464C8 /* KasaCardView.swift */; };
+		627258E02F8F822400C464C8 /* StatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258B22F8F822400C464C8 /* StatCardView.swift */; };
+		627258E12F8F822400C464C8 /* AddTransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258B42F8F822400C464C8 /* AddTransactionViewModel.swift */; };
+		627258E22F8F822400C464C8 /* CashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258B52F8F822400C464C8 /* CashViewModel.swift */; };
+		627258E32F8F822400C464C8 /* StartSafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258B82F8F822400C464C8 /* StartSafeViewController.swift */; };
+		627258E52F8F822400C464C8 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258BC2F8F822400C464C8 /* CurrencyTextField.swift */; };
+		627258E62F8F822400C464C8 /* StartSafeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258BE2F8F822400C464C8 /* StartSafeViewModel.swift */; };
+		627258E72F8F822400C464C8 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258C12F8F822400C464C8 /* HistoryViewController.swift */; };
+		627258E82F8F822400C464C8 /* UserDefaults+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258C82F8F822400C464C8 /* UserDefaults+Ext.swift */; };
+		627258EF2F8F8B5800C464C8 /* CodabelProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258ED2F8F8B5800C464C8 /* CodabelProcess.swift */; };
+		627258F22F8F8BAD00C464C8 /* CashRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627258F12F8F8BAD00C464C8 /* CashRepository.swift */; };
+		629950DB2F98B986007287B1 /* CardDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629950DA2F98B986007287B1 /* CardDataModel.swift */; };
+		749F0B902F8D38890032FDC1 /* AnchorKit in Frameworks */ = {isa = PBXBuildFile; productRef = 749F0B8F2F8D38890032FDC1 /* AnchorKit */; };
+		74D1DB862F97A01000C01A26 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1DB852F97A01000C01A26 /* HistoryViewModel.swift */; };
+		74D1DB882F97A48800C01A26 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D1DB872F97A48800C01A26 /* HistoryCell.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		6272589D2F8F822400C464C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6272589E2F8F822400C464C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		627258A02F8F822400C464C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		627258A22F8F822400C464C8 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		627258A42F8F822400C464C8 /* BaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
+		627258A52F8F822400C464C8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		627258A82F8F822400C464C8 /* TransactionProcessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionProcessModel.swift; sourceTree = "<group>"; };
+		627258AB2F8F822400C464C8 /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		627258AC2F8F822400C464C8 /* CashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashViewController.swift; sourceTree = "<group>"; };
+		627258AE2F8F822400C464C8 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		627258B02F8F822400C464C8 /* CashCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashCell.swift; sourceTree = "<group>"; };
+		627258B12F8F822400C464C8 /* KasaCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KasaCardView.swift; sourceTree = "<group>"; };
+		627258B22F8F822400C464C8 /* StatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCardView.swift; sourceTree = "<group>"; };
+		627258B42F8F822400C464C8 /* AddTransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewModel.swift; sourceTree = "<group>"; };
+		627258B52F8F822400C464C8 /* CashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashViewModel.swift; sourceTree = "<group>"; };
+		627258B82F8F822400C464C8 /* StartSafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSafeViewController.swift; sourceTree = "<group>"; };
+		627258BC2F8F822400C464C8 /* CurrencyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextField.swift; sourceTree = "<group>"; };
+		627258BE2F8F822400C464C8 /* StartSafeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartSafeViewModel.swift; sourceTree = "<group>"; };
+		627258C12F8F822400C464C8 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		627258C82F8F822400C464C8 /* UserDefaults+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Ext.swift"; sourceTree = "<group>"; };
+		627258CE2F8F822400C464C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		627258D02F8F822400C464C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627258ED2F8F8B5800C464C8 /* CodabelProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodabelProcess.swift; sourceTree = "<group>"; };
+		627258F12F8F8BAD00C464C8 /* CashRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashRepository.swift; sourceTree = "<group>"; };
+		629950DA2F98B986007287B1 /* CardDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataModel.swift; sourceTree = "<group>"; };
 		749F0B3A2F8D36670032FDC1 /* CashRegisterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashRegisterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D1DB852F97A01000C01A26 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		74D1DB872F97A48800C01A26 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		749F0B4C2F8D36680032FDC1 /* Exceptions for "CashRegisterApp" folder in "CashRegisterApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 749F0B392F8D36670032FDC1 /* CashRegisterApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		749F0B3C2F8D36670032FDC1 /* CashRegisterApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				749F0B4C2F8D36680032FDC1 /* Exceptions for "CashRegisterApp" folder in "CashRegisterApp" target */,
-			);
-			path = CashRegisterApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		749F0B372F8D36670032FDC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749F0B902F8D38890032FDC1 /* AnchorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		627258A12F8F822400C464C8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				6272589D2F8F822400C464C8 /* AppDelegate.swift */,
+				6272589F2F8F822400C464C8 /* LaunchScreen.storyboard */,
+				627258A02F8F822400C464C8 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		627258A32F8F822400C464C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				627258A22F8F822400C464C8 /* CustomTabBar.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		627258A62F8F822400C464C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				627258A42F8F822400C464C8 /* BaseCell.swift */,
+				627258A52F8F822400C464C8 /* BaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		627258A72F8F822400C464C8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				627258A32F8F822400C464C8 /* Controller */,
+				627258A62F8F822400C464C8 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		627258A92F8F822400C464C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				627258A82F8F822400C464C8 /* TransactionProcessModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		627258AA2F8F822400C464C8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				627258F02F8F8B9E00C464C8 /* Repository */,
+				627258EE2F8F8B5800C464C8 /* CodabelProcess */,
+				627258A92F8F822400C464C8 /* Model */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		627258AD2F8F822400C464C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				627258AC2F8F822400C464C8 /* CashViewController.swift */,
+				627258AB2F8F822400C464C8 /* AddTransactionViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		627258AF2F8F822400C464C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				627258AE2F8F822400C464C8 /* TransactionModel.swift */,
+				629950DA2F98B986007287B1 /* CardDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		627258B32F8F822400C464C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				627258B02F8F822400C464C8 /* CashCell.swift */,
+				627258B12F8F822400C464C8 /* KasaCardView.swift */,
+				627258B22F8F822400C464C8 /* StatCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		627258B62F8F822400C464C8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				627258B52F8F822400C464C8 /* CashViewModel.swift */,
+				627258B42F8F822400C464C8 /* AddTransactionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		627258B72F8F822400C464C8 /* Cash */ = {
+			isa = PBXGroup;
+			children = (
+				627258AD2F8F822400C464C8 /* Controller */,
+				627258AF2F8F822400C464C8 /* Model */,
+				627258B32F8F822400C464C8 /* View */,
+				627258B62F8F822400C464C8 /* ViewModel */,
+			);
+			path = Cash;
+			sourceTree = "<group>";
+		};
+		627258B92F8F822400C464C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				627258B82F8F822400C464C8 /* StartSafeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		627258BB2F8F822400C464C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		627258BD2F8F822400C464C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				627258BC2F8F822400C464C8 /* CurrencyTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		627258BF2F8F822400C464C8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				627258BE2F8F822400C464C8 /* StartSafeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		627258C02F8F822400C464C8 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				627258B92F8F822400C464C8 /* Controller */,
+				627258BB2F8F822400C464C8 /* Model */,
+				627258BD2F8F822400C464C8 /* View */,
+				627258BF2F8F822400C464C8 /* ViewModel */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		627258C22F8F822400C464C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				627258C12F8F822400C464C8 /* HistoryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		627258C32F8F822400C464C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		627258C42F8F822400C464C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74D1DB872F97A48800C01A26 /* HistoryCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		627258C52F8F822400C464C8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74D1DB852F97A01000C01A26 /* HistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		627258C62F8F822400C464C8 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				627258C22F8F822400C464C8 /* Controller */,
+				627258C32F8F822400C464C8 /* Model */,
+				627258C42F8F822400C464C8 /* View */,
+				627258C52F8F822400C464C8 /* ViewModel */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		627258C72F8F822400C464C8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				627258C02F8F822400C464C8 /* FirstScreen */,
+				627258B72F8F822400C464C8 /* Cash */,
+				627258C62F8F822400C464C8 /* History */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		627258C92F8F822400C464C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				627258C82F8F822400C464C8 /* UserDefaults+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		627258CA2F8F822400C464C8 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				627258C92F8F822400C464C8 /* Extensions */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		627258CC2F8F822400C464C8 /* Utilty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilty;
+			sourceTree = "<group>";
+		};
+		627258CD2F8F822400C464C8 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				627258AA2F8F822400C464C8 /* Data */,
+				627258C72F8F822400C464C8 /* UI */,
+				627258CA2F8F822400C464C8 /* UIComponents */,
+				627258CC2F8F822400C464C8 /* Utilty */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		627258CF2F8F822400C464C8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				627258CE2F8F822400C464C8 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		627258D12F8F822400C464C8 /* CashRegisterApp */ = {
+			isa = PBXGroup;
+			children = (
+				627258A12F8F822400C464C8 /* Application */,
+				627258A72F8F822400C464C8 /* Common */,
+				627258CD2F8F822400C464C8 /* Presentation */,
+				627258CF2F8F822400C464C8 /* Resource */,
+				627258D02F8F822400C464C8 /* Info.plist */,
+			);
+			path = CashRegisterApp;
+			sourceTree = "<group>";
+		};
+		627258EE2F8F8B5800C464C8 /* CodabelProcess */ = {
+			isa = PBXGroup;
+			children = (
+				627258ED2F8F8B5800C464C8 /* CodabelProcess.swift */,
+			);
+			path = CodabelProcess;
+			sourceTree = "<group>";
+		};
+		627258F02F8F8B9E00C464C8 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				627258F12F8F8BAD00C464C8 /* CashRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 		749F0B312F8D36670032FDC1 = {
 			isa = PBXGroup;
 			children = (
-				749F0B3C2F8D36670032FDC1 /* CashRegisterApp */,
+				627258D12F8F822400C464C8 /* CashRegisterApp */,
 				749F0B3B2F8D36670032FDC1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,11 +376,9 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				749F0B3C2F8D36670032FDC1 /* CashRegisterApp */,
-			);
 			name = CashRegisterApp;
 			packageProductDependencies = (
+				749F0B8F2F8D38890032FDC1 /* AnchorKit */,
 			);
 			productName = CashRegisterApp;
 			productReference = 749F0B3A2F8D36670032FDC1 /* CashRegisterApp.app */;
@@ -107,6 +408,9 @@
 			);
 			mainGroup = 749F0B312F8D36670032FDC1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				749F0B8E2F8D38890032FDC1 /* XCRemoteSwiftPackageReference "AnchorKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 749F0B3B2F8D36670032FDC1 /* Products */;
 			projectDirPath = "";
@@ -122,6 +426,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627258D22F8F822400C464C8 /* LaunchScreen.storyboard in Resources */,
+				627258D32F8F822400C464C8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +438,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627258D52F8F822400C464C8 /* AppDelegate.swift in Sources */,
+				627258D62F8F822400C464C8 /* SceneDelegate.swift in Sources */,
+				627258D72F8F822400C464C8 /* CustomTabBar.swift in Sources */,
+				627258D82F8F822400C464C8 /* BaseCell.swift in Sources */,
+				627258D92F8F822400C464C8 /* BaseView.swift in Sources */,
+				627258DA2F8F822400C464C8 /* TransactionProcessModel.swift in Sources */,
+				627258DB2F8F822400C464C8 /* AddTransactionViewController.swift in Sources */,
+				74D1DB862F97A01000C01A26 /* HistoryViewModel.swift in Sources */,
+				627258DC2F8F822400C464C8 /* CashViewController.swift in Sources */,
+				627258DD2F8F822400C464C8 /* TransactionModel.swift in Sources */,
+				627258DE2F8F822400C464C8 /* CashCell.swift in Sources */,
+				627258DF2F8F822400C464C8 /* KasaCardView.swift in Sources */,
+				627258E02F8F822400C464C8 /* StatCardView.swift in Sources */,
+				627258E12F8F822400C464C8 /* AddTransactionViewModel.swift in Sources */,
+				627258E22F8F822400C464C8 /* CashViewModel.swift in Sources */,
+				627258E32F8F822400C464C8 /* StartSafeViewController.swift in Sources */,
+				627258E52F8F822400C464C8 /* CurrencyTextField.swift in Sources */,
+				627258E62F8F822400C464C8 /* StartSafeViewModel.swift in Sources */,
+				627258F22F8F8BAD00C464C8 /* CashRepository.swift in Sources */,
+				627258E72F8F822400C464C8 /* HistoryViewController.swift in Sources */,
+				74D1DB882F97A48800C01A26 /* HistoryCell.swift in Sources */,
+				627258E82F8F822400C464C8 /* UserDefaults+Ext.swift in Sources */,
+				629950DB2F98B986007287B1 /* CardDataModel.swift in Sources */,
+				627258EF2F8F8B5800C464C8 /* CodabelProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6272589F2F8F822400C464C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6272589E2F8F822400C464C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		749F0B4E2F8D36680032FDC1 /* Debug */ = {
@@ -149,7 +490,6 @@
 				INFOPLIST_FILE = CashRegisterApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -160,12 +500,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.info.CashRegisterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -180,7 +524,6 @@
 				INFOPLIST_FILE = CashRegisterApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -191,12 +534,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.info.CashRegisterApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -341,6 +688,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		749F0B8E2F8D38890032FDC1 /* XCRemoteSwiftPackageReference "AnchorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/habiboff/AnchorKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		749F0B8F2F8D38890032FDC1 /* AnchorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 749F0B8E2F8D38890032FDC1 /* XCRemoteSwiftPackageReference "AnchorKit" */;
+			productName = AnchorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 749F0B322F8D36670032FDC1 /* Project object */;
 }
